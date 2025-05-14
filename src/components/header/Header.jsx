@@ -7,7 +7,7 @@ import photo4 from '../../assets/Shopping Cart.svg'
 
 const Header = () => {
   return (
-    <header className='relative h-screen' style={{ background: 'linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%)',}}>
+    <header className='relative min-h-[887px] max-w-[1550px] mx-auto' style={{ background: 'linear-gradient(155.28deg, #383638 2.06%, #0B0B0B 33.08%)',}}>
         <nav className='container max-w-[1100px] mx-auto flex justify-between h-20 items-center text-white'>
             <img src={photo} alt="" />
             <ul className='flex gap-6'>
